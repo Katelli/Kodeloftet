@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    min-height: 120vh;
+}
+
+h1{
+    border: black solid 2px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.bouncing-ball{
+    background-color: cornflowerblue;
+    width: 1330px;
+    height: 660px;
+}
+
+.ball{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    animation: bounce 4s linear infinite alternate-reverse;
+}
+
+.surprise{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    animation: surprise 4s linear infinite;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translate(0px, 0px);
+        background-color: red;
+    }
+
+    10%{
+        transform: translate(125px, 580px);
+        background-color: orange;
+    }
+
+    20%{
+        transform: translate(250px, 0px);
+        background-color: gold;
+    }
+
+    30%{
+        transform: translate(375px, 580px);
+        background-color: rgba(172, 255, 47, 0.789);
+    }
+
+    40%{
+        transform: translate(500px, 0px);
+        background-color: green;
+        scale: 1;
+    }
+
+    50%{
+        transform: translate(625px, 580px);
+        background-color: cyan;
+        scale: 3;
+    }
+
+    60%{
+        transform: translate(750px, 0px);
+        background-color: blue;
+        scale: 1;
+    }
+
+    70%{
+        transform: translate(875px, 580px);
+        background-color: indigo;
+    }
+
+    80%{
+        transform: translate(1000px, 0px);
+        background-color: violet;
+    }
+
+    90%{
+        transform: translate(1125px, 580px);
+        background-color: pink;
+    }
+
+    100%{
+        transform: translate(1250px, 0px);
+        background-color: white;
+    }
+}
+
+@keyframes surprise{
+    0%{
+        color: cornflowerblue;
+    }
+
+    10%{
+        color: cornflowerblue;
+    }
+
+    20%{
+        color: cornflowerblue;
+    }
+
+    30%{
+        color: cornflowerblue;
+    }
+
+    40%{
+        color: cornflowerblue;
+    }
+
+    50%{
+        color: black;
+    }
+
+    60%{
+        color: black;
+    }
+
+    70%{
+        color: cornflowerblue;
+    }
+
+    80%{
+        color: cornflowerblue;
+    }
+
+    90%{
+        color: cornflowerblue;
+    }
+
+    100%{
+        color: cornflowerblue;
+    }
+}
