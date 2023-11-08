@@ -1,0 +1,63 @@
+.p{
+    max-width: 30%;
+    margin-bottom: 30px;
+}
+
+body{
+    font-size: large;
+    margin: 0px;
+}
+
+.section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button{
+    height: 35px;
+    width: 80px;
+    font-size: medium;
+    margin: 5px;
+}
+
+#Dark{
+    height: 50px;
+    width: 70px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#Icon{
+    margin: 10px;
+}
+
+.icon-light{
+    content: url('https://api.iconify.design/fa/sun-o.svg?color=%23181717&width=40&height=40');
+}
+
+.icon-dark{
+    content: url('https://api.iconify.design/game-icons/moon.svg?color=%23d5dfe1&width=40&height=40');
+}
+
+#user{
+    background-color: rgb(255, 187, 0);
+}
+
+#admin{
+    background-color: brown;
+}
+
+#unknown{
+    background-color: blueviolet;
+}
+
+#name{
+    text-align: center;
+    font-size: medium;
+    height: 30px;
+}
+
+.buffer{
+    min-height: 20vh;
+    background-color: none;
+}

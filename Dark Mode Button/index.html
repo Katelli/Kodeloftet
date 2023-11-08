@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheets/utility.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/palette.css">
+
+    <script defer src="main.js"></script>
+
+    <title>Dark Mode Button</title>
+
+</head>
+<body class="bg-primary fg-secondary">
+
+    <header class="header flex flex-row bg-tertiary justify-between">
+        <div id="Icon" class="icon-light"></div>
+        <button id="Dark" class="bg-secondary fg-tertiary">Dark Mode</button>
+    </header>
+
+    <section class="section flex flex-col">
+        <h1 class="h1 text-center">Toggle DarkMode</h1>
+
+        <div class="div flex flex-row-wrap justify-between">
+
+            <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem nostrum, repellat dignissimos, ratione quia nulla corrupti nobis voluptatibus ut cupiditate ea perspiciatis sit corporis magni architecto aperiam maxime dolores? Placeat?</p>
+    
+            <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem nostrum, repellat dignissimos, ratione quia nulla corrupti nobis voluptatibus ut cupiditate ea perspiciatis sit corporis magni architecto aperiam maxime dolores? Placeat?</p>
+
+            <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem nostrum, repellat dignissimos, ratione quia nulla corrupti nobis voluptatibus ut cupiditate ea perspiciatis sit corporis magni architecto aperiam maxime dolores? Placeat?</p>
+    
+            <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem nostrum, repellat dignissimos, ratione quia nulla corrupti nobis voluptatibus ut cupiditate ea perspiciatis sit corporis magni architecto aperiam maxime dolores? Placeat?</p>
+
+            <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem nostrum, repellat dignissimos, ratione quia nulla corrupti nobis voluptatibus ut cupiditate ea perspiciatis sit corporis magni architecto aperiam maxime dolores? Placeat?</p>
+
+            <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem nostrum, repellat dignissimos, ratione quia nulla corrupti nobis voluptatibus ut cupiditate ea perspiciatis sit corporis magni architecto aperiam maxime dolores? Placeat?</p>
+        </div>
+
+        <div class="flex justify-around">
+            <button id="user">User</button>
+            <button id="admin">Admin</button>
+            <button id="unknown">Unknown</button>
+        </div>
+
+    </section>
+
+    <div class="buffer"></div>
+    
+    <section>   
+
+        <div class="flex flex-row justify-around align-co-between">
+
+            <div id="form" class="flex flex-col justify-center align-it-center">
+                    <label for="numberA">Calculate</label>
+                    <input type="number" id="numberA" autocomplete="off" class="bg-tertiary fg-secondary text-center">
+                    <p class="text-center">+</p>
+                    <input type="number" id="numberB" autocomplete="off" class="bg-tertiary fg-secondary text-center">
+                    <p>=
+                        <span id="display" class="text-center">0</span>
+                    </p>
+                    <div class="flex">
+                        <button id="button-sum" class="bg-tertiary fg-secondary">Sum</button>
+
+                        <button id="C" class="bg-tertiary fg-secondary">C</button>
+                    </div>
+            </div>
+
+            <div id="form" class="flex flex-col align-it-center">
+
+                <label for="name">UserName</label>
+                <input type="text" id="name" autocomplete="off" class="bg-tertiary fg-secondary">
+                <div class="flex">
+                    <button id="log-in" class="bg-tertiary fg-secondary">Log in</button>
+
+                    <button id="reset" class="bg-tertiary fg-secondary">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="buffer"></div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+:root {
+    --color-primary: #93ef37;
+    --color-secondary: #181717;
+    --color-tertiary: #d5dfd5;
+}
+
+.ThemeDark{
+    --color-primary: #2e1a1a;
+    --color-secondary: #d5dfe1;
+    --color-tertiary: #181717; 
+}
+
+.bg-primary{
+    background-color: var(--color-primary);
+}
+
+.fg-primary{
+    color: var(--color-primary);
+}
+
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+
+.fg-secondary{
+    color: var(--color-secondary);
+}
+
+.bg-tertiary{
+    background-color: var(--color-tertiary);
+}
+
+.fg-tertiary{
+    color: var(--color-tertiary)
+}
