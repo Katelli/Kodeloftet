@@ -1,0 +1,514 @@
+@keyframes roll{
+    0%{
+        transform: translate(0px, 480px) rotate(90deg);
+        background-color: red;
+    }
+
+    10%{
+        transform: translate(125px, 475px) rotate(180deg);
+        background-color: orange;
+    }
+
+    20%{
+        transform: translate(250px, 465px) rotate(270deg);
+        background-color: gold;
+    }
+
+    30%{
+        transform: translate(375px, 450px) rotate(360deg);
+        background-color: rgba(172, 255, 47, 0.789);
+    }
+
+    40%{
+        transform: translate(500px, 430px) rotate(450deg);
+        background-color: green;
+        height: 120px;
+        width: 120px;
+    }
+
+    50%{
+        transform: translate(625px, 405px) rotate(540deg);
+        background-color: cyan;
+        height: 150px;
+        width: 150px;
+    }
+
+    60%{
+        transform: translate(750px, 430px) rotate(630deg);
+        background-color: blue;
+        height: 120px;
+        width: 120px;
+    }
+
+    70%{
+        transform: translate(875px, 450px) rotate(720deg);
+        background-color: indigo;
+    }
+
+    80%{
+        transform: translate(1000px, 465px) rotate(810deg);
+        background-color: violet;
+    }
+
+    90%{
+        transform: translate(1125px, 475px) rotate(900deg);
+        background-color: pink;
+    }
+
+    100%{
+        transform: translate(1250px, 480px) rotate(990deg);
+        background-color: white;
+    }
+}
+
+
+@keyframes bounce{
+    0%{
+        transform: translate(0px, 0px);
+        background-color: red;
+    }
+
+    10%{
+        transform: translate(125px, 520px);
+        background-color: orange;
+    }
+
+    20%{
+        transform: translate(250px, 0px);
+        background-color: gold;
+    }
+
+    30%{
+        transform: translate(375px, 500px);
+        background-color: rgba(172, 255, 47, 0.789);
+    }
+
+    40%{
+        transform: translate(500px, 0px);
+        background-color: green;
+        scale: 1;
+    }
+
+    50%{
+        transform: translate(625px, 520px);
+        background-color: cyan;
+        scale: 3;
+    }
+
+    60%{
+        transform: translate(750px, 0px);
+        background-color: blue;
+        scale: 1;
+    }
+
+    70%{
+        transform: translate(875px, 500px);
+        background-color: indigo;
+    }
+
+    80%{
+        transform: translate(1000px, 0px);
+        background-color: violet;
+    }
+
+    90%{
+        transform: translate(1125px, 520px);
+        background-color: pink;
+    }
+
+    100%{
+        transform: translate(1250px, 0px);
+        background-color: white;
+    }
+}
+
+@keyframes hover{
+    0%{
+        transform: translate(1235px, 0px);
+        border-bottom: 100px solid white;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    
+    10%{
+        transform: translate(1125px, 0px);
+        border-bottom: 100px solid pink;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    
+    20%{
+        transform: translate(1000px, 0px);
+        border-bottom: 100px solid violet;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    
+    30%{
+        transform: translate(875px, 0px);
+        border-bottom: 100px solid indigo;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    
+    40%{
+        transform: translate(750px, 0px);
+        border-bottom: 80px solid blue;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+    }
+    
+    50%{
+        transform: translate(625px, 0px);
+        border-bottom: 80px solid cyan;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+    }
+    
+    60%{
+        transform: translate(500px, 0px);
+        border-bottom: 80px solid green;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+    }
+    
+    70%{
+        transform: translate(375px, 0px);
+        border-bottom: 100px solid rgba(172, 255, 47, 0.789);
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    
+    80%{
+        transform: translate(250px, 0px);
+        border-bottom: 100px solid gold;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    
+    90%{
+        transform: translate(125px, 0px);
+        border-bottom: 100px solid orange;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    
+    100%{
+        transform: translate(0px, 0px);
+        border-bottom: 100px solid red;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+}
+
+@keyframes bord{
+    0%{
+        transform: translate(1235px, 0px);
+        border-bottom: 105px;
+        border-left: 55px;
+        border-right: 55px;
+        border-color: transparent transparent black transparent;
+    }
+    
+    10%{
+        transform: translate(1125px, 0px);
+        border-bottom: 105px;
+        border-left: 55px;
+        border-right: 55px;
+        border-color: transparent transparent black transparent;
+    }
+    
+    20%{
+        transform: translate(1000px, 0px);
+        border-bottom: 105px;
+        border-left: 55px;
+        border-right: 55px;
+        border-color: transparent transparent black transparent;
+    }
+    
+    30%{
+        transform: translate(875px, 0px);
+        border-bottom: 105px;
+        border-left: 55px;
+        border-right: 55px;
+        border-color: transparent transparent black transparent;
+    }
+    
+    40%{
+        transform: translate(750px, 0px);
+        border-bottom: 85px;
+        border-left: 45px;
+        border-right: 45px;
+        border-color: transparent transparent black transparent;
+    }
+    
+    50%{
+        transform: translate(625px, 0px);
+        border-bottom: 85px;
+        border-left: 45px;
+        border-right: 45px;
+    }
+    
+    60%{
+        transform: translate(500px, 0px);
+        border-bottom: 85px;
+        border-left: 45px;
+        border-right: 45px;
+    }
+    
+    70%{
+        transform: translate(375px, 0px);
+        border-bottom: 105px;
+        border-left: 55px;
+        border-right: 55px;
+    }
+    
+    80%{
+        transform: translate(250px, 0px);
+        border-bottom: 105px;
+        border-left: 55px;
+        border-right: 55px;
+    }
+    
+    90%{
+        transform: translate(125px, 0px);
+        border-bottom: 105px;
+        border-left: 55px;
+        border-right: 55px;
+    }
+    
+    100%{
+        transform: translate(0px, 0px);
+        border-bottom: 105px;
+        border-left: 55px;
+        border-right: 55px;
+    }
+}
+
+@keyframes disco{
+    0%{
+        background-color: white;
+    }
+    
+    10%{
+        background-color: pink;
+    }
+    
+    20%{
+        background-color: violet;
+    }
+    
+    30%{
+        background-color: indigo;
+    }
+    
+    40%{
+        background-color: blue;
+    }
+    
+    50%{
+        background-color: cyan;
+    }
+    
+    60%{
+        background-color: green;
+    }
+    
+    70%{
+        background-color: rgba(172, 255, 47, 0.789);
+    }
+    
+    80%{
+        background-color: gold;
+    }
+    
+    90%{
+        background-color: orange;
+    }
+    
+    100%{
+        background-color: red;
+    }
+}
+
+@keyframes UFO{
+    0%{
+        transform: translate(400px, -400px);
+    }
+
+    10%{
+        transform: translate(700px, -300px);
+    }
+
+    20%{
+        transform: translate(200px, -100px);
+    }
+
+    30%{
+        transform: translate(85px, 200px);
+    }
+
+    40%{
+        transform: translate(0px, -200px);
+    }
+
+    50%{
+        transform: translate(0px, -200px);
+    }
+
+    60%{
+        transform: translate(0px, -200px);
+    }
+
+    70%{
+        transform: translate(-150px, 150px);
+    }
+
+    80%{
+        transform: translate(-500px, 30px);
+    }
+
+    90%{
+        transform: translate(-350px, -200px);
+    }
+
+    100%{
+        transform: translate(-350px, -200px);
+    }
+}
+
+@keyframes surprise{
+    0%{
+        color: transparent;
+    }
+    
+    10%{
+        color: transparent;
+    }
+    
+    20%{
+        color: transparent;
+    }
+    
+    30%{
+        color: transparent;
+    }
+    
+    40%{
+        color: transparent;
+    }
+    
+    50%{
+        color: black;
+    }
+    
+    60%{
+        color: transparent;
+    }
+    
+    70%{
+        color: transparent;
+    }
+    
+    80%{
+        color: transparent;
+    }
+    
+    90%{
+        color: transparent;
+    }
+
+    100%{
+        color: transparent;
+    }
+}
+
+@keyframes beam{
+    0%{
+        border-bottom: transparent;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    10%{
+        border-bottom: transparent;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    20%{
+        border-bottom: transparent;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    30%{
+        border-bottom: transparent;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    40%{
+        border-bottom: 50px solid #bfe273;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    50%{
+        border-bottom: 50px solid #bfe273;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    60%{
+        border-bottom: 50px solid #bfe273;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    70%{
+        border-bottom: transparent;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    80%{
+        border-bottom: transparent;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    90%{
+        border-bottom: transparent;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+
+    100%{
+        border-bottom: transparent;
+        border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0px;
+	    width: 25px;
+    }
+}
