@@ -1,0 +1,50 @@
+*{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-col-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.min-screen-h{
+    min-height: 100vh;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.gap-md{
+    gap: 40px;
+}
+
+.mw-20{
+    max-width: 300px;
+}
+
+.mh-20{
+    max-height: 300px;
+}
+
+.image-radius-half{
+    border-radius: 50%;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="palette.css">
+    <link rel="stylesheet" href="utility.css">
+    <style>
+        div.Project:nth-child(even){
+            background-color: var(--color-quaternary);
+        }
+        div.Project:nth-child(odd){
+            background-color: var(--color-tertiary);
+        }
+    </style>
+</head>
+<body class="flex-col min-screen-h bg-primary">
+    <header class="header bg-tertiary">
+
+        <h1>Header</h1>
+
+        <nav></nav>
+            <ul class="ul">
+                <a href="#Home">
+                    <li>Home</li>
+                </a>
+        
+                <a href="#Info">
+                    <li>About</li>
+                </a>
+        
+                <a href="#Projects">
+                    <li>Projects</li>
+                </a>
+            </ul>
+    </header>
+
+    <main class="grow">        
+        <section id="Home" class="Home-image fg-secondary flex-col-center gap-md">
+            <h2 class="Home-image-text">Welcome</h2>
+            </section>
+        
+        <section id="Info" class="bg-quaternary flex-col-center gap-md">
+            <h2>About me</h2>
+            <img class="mw-20 mh-20 image-radius-half border" src="assets/Gradient leaves.jpg" alt="Gradient leaves">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nihil deleniti in at quo cupiditate ea cumque! Incidunt, voluptas consequatur!</p>
+        </section>
+
+        <section id="Projects" class="flex-col gap-md">
+            <h2 class="fg-secondary">My Projects</h2>
+            <div class="flex-row">
+                <div class="Project">
+                    <a href="http://127.0.0.1:5501/">
+                        <img src="assets/lighthouse.jpg" alt="link project 1">
+                    </a>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="Project">
+                    <a href="">
+                        <img src="assets/lighthouse.jpg" alt="link project 2">
+                    </a>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="Project">
+                    <a href="">
+                        <img src="assets/lighthouse.jpg" alt="link project 3">
+                    </a>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="Project">
+                    <a href="">
+                        <img src="assets/lighthouse.jpg" alt="link project 4">
+                    </a>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="Project">
+                    <a href="">
+                        <img src="assets/lighthouse.jpg" alt="link project 5">
+                    </a>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="Project">
+                    <a href="">
+                        <img src="assets/lighthouse.jpg" alt="link project 6">
+                    </a>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-tertiary">
+        <h2>Made by Kat</h2>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,21 @@
+:root{
+    --color-primary: rgba(73, 37, 13, 0.993);
+    --color-secondary: rgba(114, 65, 33, 0.993);
+    --color-tertiary:  rgba(188, 143, 143, 0.66);
+}
+
+.bg-primary{
+    background-color: var(--color-primary);
+}
+
+.fg-primary{
+    color: rgba(245, 245, 220, 0.637);
+}
+
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+
+.bg-tertiary{
+    background-color: var(--color-tertiary);
+}
