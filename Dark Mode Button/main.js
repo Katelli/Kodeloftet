@@ -1,8 +1,8 @@
 // Change theme
 function DarkFunction() {
     let element = document.body;
-    let icon = document.getElementById("Icon");
-    let mode = document.getElementById("Dark");
+    let icon = document.getElementById("icon");
+    let mode = document.getElementById("dark");
     element.classList.toggle("ThemeDark");
     icon.classList.toggle("icon-dark");
     if (mode.textContent === "Dark Mode") {
@@ -16,7 +16,7 @@ function DarkFunction() {
       }
 }
 
-let ButtonDark = document.querySelector("#Dark")
+let ButtonDark = document.querySelector("#dark")
 ButtonDark.addEventListener("click", DarkFunction)
 
 

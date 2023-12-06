@@ -1,11 +1,15 @@
-.p{
-    max-width: 30%;
-    margin-bottom: 30px;
-}
-
 body{
     font-size: large;
     margin: 0px;
+}
+
+.div{
+    margin-bottom: 3rem;
+}
+
+.p{
+    max-width: 30%;
+    margin-bottom: 30px;
 }
 
 .section{
@@ -20,14 +24,14 @@ button{
     margin: 5px;
 }
 
-#Dark{
+#dark{
     height: 50px;
     width: 70px;
     border-radius: 100%;
     margin: 10px;
 }
 
-#Icon{
+#icon{
     margin: 10px;
 }
 
@@ -51,6 +55,10 @@ button{
     background-color: blueviolet;
 }
 
+#form{
+    margin: 2rem;
+}
+
 #name{
     text-align: center;
     font-size: medium;
@@ -60,4 +68,16 @@ button{
 .buffer{
     min-height: 20vh;
     background-color: none;
+}
+
+@media (max-width: 768px) {
+    .p{
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 425px){
+    .p{
+        max-width: 100%;
+    }
 }
